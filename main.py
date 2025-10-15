@@ -40,27 +40,3 @@ if st.button("Generate Summary"):
         st.error("Please upload an audio file.")
 
 
-st.markdown(
-    """
-    ---
-    ### Source code and contact information
-    - The source code for this app can be found on GitHub: [SpeechDigest](https://github.com/StanGirard/speechdigest)
-    - If you have any questions or comments, feel free to reach out to me on Twitter: [@_StanGirard](https://twitter.com/_StanGirard)
-    """
-)
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown(
-        """
-        [![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FStanGirard%2Fspeechdigest)](https://twitter.com/intent/tweet?url=https://github.com/StanGirard/speechdigest&text=Check%20out%20this%20awesome%20Speech%20Digest%20app%20built%20with%20Streamlit!%20%23speechdigest%20%23streamlit)
-        """
-    )
-
-with col2:
-    st.markdown(
-        """
-        [![GitHub Stars](https://img.shields.io/github/stars/StanGirard/speechdigest?style=social)](https://github.com/StanGirard/speechdigest/stargazers)
-        """
-    )
